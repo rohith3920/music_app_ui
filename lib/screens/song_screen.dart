@@ -10,6 +10,10 @@ class SongScreen extends StatefulWidget {
 class _SongScreenState extends State<SongScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('rohith'),
+      ),
+    );
   }
 }
